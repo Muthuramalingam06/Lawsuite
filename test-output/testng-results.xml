@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="377626" started-at="2023-03-05T10:11:11Z" finished-at="2023-03-05T10:17:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="377626" started-at="2023-03-05T10:11:11Z" finished-at="2023-03-05T10:17:29Z">
+      <class name="org.siuts.Lawsuits">
+        <test-method status="PASS" signature="beforeclasss()[pri:0, instance:org.siuts.Lawsuits@6b09bb57]" name="beforeclasss" is-config="true" duration-ms="18812" started-at="2023-03-05T10:11:11Z" finished-at="2023-03-05T10:11:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclasss -->
+        <test-method status="PASS" signature="before()[pri:0, instance:org.siuts.Lawsuits@6b09bb57]" name="before" is-config="true" duration-ms="834" started-at="2023-03-05T10:11:30Z" finished-at="2023-03-05T10:11:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="lawsuit2()[pri:0, instance:org.siuts.Lawsuits@6b09bb57]" name="lawsuit2" duration-ms="352808" started-at="2023-03-05T10:11:31Z" finished-at="2023-03-05T10:17:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lawsuit2 -->
+        <test-method status="PASS" signature="afetr(org.testng.ITestResult)[pri:0, instance:org.siuts.Lawsuits@6b09bb57]" name="afetr" is-config="true" duration-ms="152" started-at="2023-03-05T10:17:23Z" finished-at="2023-03-05T10:17:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=lawsuit2 status=SUCCESS method=Lawsuits.lawsuit2()[pri:0, instance:org.siuts.Lawsuits@6b09bb57] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afetr -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:org.siuts.Lawsuits@6b09bb57]" name="afterclass" is-config="true" duration-ms="4924" started-at="2023-03-05T10:17:24Z" finished-at="2023-03-05T10:17:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- org.siuts.Lawsuits -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
